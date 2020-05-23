@@ -10,15 +10,11 @@ This will create the ***.venv*** directory if it doesn’t exist, and also creat
 
 Once you’ve created a virtual environment, you may activate it.
 
-On Windows, run:
-
 ```bash
+# on Windows
 .venv\Scripts\activate.bat
-```
 
-On Unix or MacOS, run:
-
-```bash
+#on Linux
 source .venv/bin/activate
 ```
 
@@ -34,9 +30,29 @@ Python 3.5.1 (default, May  6 2016, 10:59:36)
 >>>
 ```
 
+### Deactivating virtual environment
+
+```bash
+(.venv) $ deactivate
+
+$...
+```
+
+The shell’s prompt stops showing the virtual environment
+
+### Deactivating virtual environment
+
+```bash
+(.venv) $ deactivate
+
+$...
+```
+
+The shell’s prompt stops showing the virtual environment
+
 ## Managing Packages with pip
 
-Pip installation
+Pip installation and update
 
 ```bash
 (.venv) $ python -m pip install --upgrade pip
@@ -55,7 +71,7 @@ astroobs               - Provides astronomy ephemeris to plan telescope observat
 PyAstronomy            - A collection of astronomy related tools for Python.
 ...
 
-(.env) $ pip install requests==2.6.0
+(.venv) $ pip install requests==2.6.0
 Collecting requests==2.6.0
   Using cached requests-2.6.0-py2.py3-none-any.whl
 Installing collected packages: requests
