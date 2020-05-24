@@ -1,6 +1,6 @@
 # pyenv Ubuntu installation
 
-https://github.com/pyenv/pyenv
+<https://github.com/pyenv/pyenv>
 
 ## Basic GitHub Checkout
 
@@ -18,14 +18,14 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 ***PYENV_ROOT*** has to point to the path where pyenv repo is cloned and add ***$PYENV_ROOT/bin*** to your ***$PATH*** for access to the ***pyenv*** command-line utility.
 
-### For bash:
+### For bash
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 ```
 
-### For Ubuntu Desktop:
+### For Ubuntu Desktop
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
@@ -66,7 +66,7 @@ Before attempting to install a new Python version.
 sudo apt-get update; sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
-## Install Python versions 
+## Install Python versions
 
 into $(pyenv root)/versions. For example, to download and install Python 3.7.7, run:
 
@@ -86,4 +86,3 @@ Rehashes shims. From time to time you'll need to rebuild your shim files. Doing 
 ```bash
 pyenv rehash
 ```
-
