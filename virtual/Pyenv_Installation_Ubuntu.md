@@ -86,3 +86,17 @@ Rehashes shims. From time to time you'll need to rebuild your shim files. Doing 
 ```bash
 pyenv rehash
 ```
+
+## Uninstalling pyenv
+
++ The simplicity of pyenv makes it easy to temporarily disable it, or uninstall from the system.
+
+To **disable** ***pyenv*** managing your Python versions, simply remove the pyenv init line from your shell startup configuration. This will remove ***pyenv shims*** directory from PATH, and future invocations like python will execute the system Python version, as before pyenv.
+
+***pyenv*** will still be accessible on the command line, but your Python apps won't be affected by version switching.
+
++ To completely uninstall pyenv, perform step (1) and then remove its root directory. This will delete all Python versions that were installed under ***$(pyenv root)/versions/*** directory:
+
+```bash
+rm -rf $(pyenv root)
+```
