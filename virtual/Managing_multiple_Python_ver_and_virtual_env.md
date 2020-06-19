@@ -82,8 +82,7 @@ pyenv local 3.7.0
 If we then ran
 
 ```bash
-# veset      #in  ~/.bash_aliases -> alias veset="source .venv/bin/activate"
-python -m venv .venv
+veset      #in  ~/.bash_aliases -> alias veset="python -m venv .venv"
 ```
 
 a new virtual environment would be set up under ***.venv***, using our locally enabled Python 3.7.0.
@@ -95,8 +94,7 @@ To activate run:
 .venv\Scripts\activate.bat
 
 #on Linux
-# ***veactivate***    #in  ~/.bash_aliases -> alias veactivate="source .venv/bin/activate"
-source .venv/bin/activate
+veactivate    #in  ~/.bash_aliases -> alias veactivate="source .venv/bin/activate"
 ```
 
 and can start working.
