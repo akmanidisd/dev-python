@@ -32,14 +32,14 @@ pyenv rehash
 
 ```bash
 # Create first time
-python -m venv .venv
+veset      #in  ~/.bash_aliases -> alias veset="python -m venv .venv"
 
 # ACTIVATE it
 # on Windows
 .venv\Scripts\activate.bat
 
 #on Linux
-source .venv/bin/activate
+veactivate    #in  ~/.bash_aliases -> alias veactivate="source .venv/bin/activate"
 
 
 # DEACTIVATE it
