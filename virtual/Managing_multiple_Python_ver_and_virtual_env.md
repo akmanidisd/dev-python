@@ -82,6 +82,7 @@ pyenv local 3.7.0
 If we then ran
 
 ```bash
+# veset      #in  ~/.bash_aliases -> alias veset="source .venv/bin/activate"
 python -m venv .venv
 ```
 
@@ -94,6 +95,7 @@ To activate run:
 .venv\Scripts\activate.bat
 
 #on Linux
+# ***veactivate***    #in  ~/.bash_aliases -> alias veactivate="source .venv/bin/activate"
 source .venv/bin/activate
 ```
 
