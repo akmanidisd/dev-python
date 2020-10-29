@@ -29,27 +29,6 @@ Python 3.5.1 (default, May  6 2016, 10:59:36)
 
 >>>
 ```
-
-### Deactivating virtual environment
-
-```bash
-(.venv) $ deactivate
-
-$...
-```
-
-The shell’s prompt stops showing the virtual environment
-
-### Deactivating virtual environment
-
-```bash
-(.venv) $ deactivate
-
-$...
-```
-
-The shell’s prompt stops showing the virtual environment
-
 ## Managing Packages with pip
 
 Pip installation and update
