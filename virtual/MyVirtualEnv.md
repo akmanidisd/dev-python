@@ -40,13 +40,13 @@ sudo apt-get install python3-venv
 alias veset="python -m venv .venv"
 alias veactivate="source .venv/bin/activate"
 
-# add these lines if not exist in  ~/.bashrc
+# add these lines if not exist in  ~/.bash_profile
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
 
 # activate
-source  ~/.bashrc
+source  ~/.bash_profile
 ```
 
 ```bash
