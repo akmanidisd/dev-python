@@ -12,7 +12,7 @@ exec "$SHELL"
 Then reboot WSL for applying the setting.<br/>
 Installation of pyenv is now complete.
 
-## INSTALLING LIBRARIES THAT ARE NEED FOR "INSTALLING PYTHON"
+## INSTALLING LIBRARIES THAT ARE NEEDED FOR "INSTALLING PYTHON"
 
 Execution the following command.
 
