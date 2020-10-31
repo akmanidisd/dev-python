@@ -48,6 +48,12 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 
 **Ubuntu**: Modify your ***~/.bashrc*** file instead of ***~/.bash_profile***.
 
+In Ubunto 20.04 there is no ***python*** but only ***python3***. Run the following command to create a symlink:
+
+```bash
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
 **General warning**: There are some systems where the BASH_ENV variable is configured to point to .bashrc. On such systems you should almost certainly put the above mentioned line eval "$(pyenv init -)" into .bash_profile, and not into .bashrc. Otherwise you may observe strange behaviour, such as pyenv getting into an infinite loop. See #264 for details.
 
 ## Restart your shell
