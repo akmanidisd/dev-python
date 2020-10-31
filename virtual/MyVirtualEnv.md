@@ -96,7 +96,7 @@ The requirements.txt can then be committed to version control and shipped as par
 ...
 ```
 
-## gitignore
+## .gitignore
 
 .venv
 
