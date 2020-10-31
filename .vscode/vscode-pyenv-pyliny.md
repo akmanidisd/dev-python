@@ -1,4 +1,4 @@
-# [Visual Studio Code with Python, pyenv and pylint](https://ondrejzeman.com/blog/vscode-python-pyenv-and-pylint(
+# [Visual Studio Code with Python, pyenv and pylint](https://ondrejzeman.com/blog/vscode-python-pyenv-and-pylint)
 
 This howto is written for the following scenario ...
 
