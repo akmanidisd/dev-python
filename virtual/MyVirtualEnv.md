@@ -31,7 +31,19 @@ pyenv rehash
 ## venv
 
 ```bash
-# Create first time
+# On Ubuntu/Debian systems you need to install 
+sudo apt-get install python3-venv
+```
+
+```bash
+# Set aliases for veset & veactivate
+sudo echo 'alias veset="python -m venv .venv"' >> ~/.bashrc
+sudo echo 'alias veactivate="source .venv/bin/activate"' >> ~/.bashrc
+source  ~/.bashrc
+```
+
+```bash
+# In every project run first time
 veset      #in  ~/.bash_aliases -> alias veset="python -m venv .venv"
 
 # ACTIVATE it
