@@ -36,9 +36,16 @@ sudo apt-get install python3-venv
 ```
 
 ```bash
-# Set aliases for veset & veactivate
-sudo echo 'alias veset="python -m venv .venv"' >> ~/.bashrc
-sudo echo 'alias veactivate="source .venv/bin/activate"' >> ~/.bashrc
+# Add aliases for veset & veactivate in ~/.bash_aliases
+alias veset="python -m venv .venv"
+alias veactivate="source .venv/bin/activate"
+
+# add these lines if not exist in  ~/.bashrc
+if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
+fi
+
+# activate
 source  ~/.bashrc
 ```
 
