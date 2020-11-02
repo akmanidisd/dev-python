@@ -10,16 +10,13 @@
 1. Activate **venv**
 
 ```bash
-#Go to the project folder
-$ cd project_folder
-# activate venv
-$ veactivate
+# cd project_folder
+veactivate
 ```
 
 2. Develop with VSCode
 
 ```bash
-# call VSCode
 (.venv) $ code .
 ```
 
